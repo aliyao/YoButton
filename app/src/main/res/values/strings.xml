@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">悠钮</string>
+
+    <string-array name="lv_activity_main_setting">
+        <item>是否开启</item>
+    </string-array>
+    <string name="accessibility"> 激活后便可以用悬浮窗来代替返回键了 </string>
+</resources>

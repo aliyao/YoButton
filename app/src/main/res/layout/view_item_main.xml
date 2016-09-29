@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tb_view_item_main"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tv_view_item_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="测试"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/tb_view_item_main"
+        android:layout_toStartOf="@+id/tb_view_item_main" />
+
+</RelativeLayout>
