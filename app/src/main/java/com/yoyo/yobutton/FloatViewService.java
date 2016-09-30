@@ -23,7 +23,7 @@ public class FloatViewService extends AccessibilityService {
     private ImageButton mFloatView;
 
     private boolean waitDouble = true;
-    private static final int DOUBLE_CLICK_TIME = 350; // 两次单击的时间间隔
+    private static final int DOUBLE_CLICK_TIME = 250; // 两次单击的时间间隔
     boolean isLongClick;
     public static AccessibilityService initialize;
     @Override
